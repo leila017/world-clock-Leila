@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World clock - Leila</title>
   </head>
@@ -17,14 +19,14 @@
         <option id="">Pretoria</option>
       </select>
 
-      <div class="citys">
+      <div class="citys" id="singapore">
         <div>
-          <h2>Cape Town</h2>
+          <h2>Singapore</h2>
           <div class="date">February 2nd 2025</div>
         </div>
         <div class="time">20:32:45 <small> PM </small></div>
       </div>
-      <div class="citys">
+      <div class="citys" id="tokyo">
         <div>
           <h2>Tokyo</h2>
           <div class="date">February 2nd 2025</div>
