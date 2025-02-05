@@ -48,6 +48,7 @@ function updateCity(event) {
             "HH:mm:ss [<small>]A[</small>]"
           )}</div>
         </div>
+        <a href="index.html">Back to homepage</a>
     `;
 }
 
